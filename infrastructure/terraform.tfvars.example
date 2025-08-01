@@ -1,0 +1,10 @@
+# Example Terraform Variables
+# Copy this file to terraform.tfvars and customize for your environment
+
+resource_group_name   = "rg-taskmanagement-dev"
+location             = "West Europe"
+environment          = "dev"
+storage_account_name = "sttaskmanagementdev123"  # Must be globally unique
+app_service_plan_name = "asp-taskmanagement-dev"
+function_app_name    = "func-taskmanagement-dev"
+app_insights_name    = "ai-taskmanagement-dev"
